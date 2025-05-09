@@ -153,7 +153,6 @@ endif()
 
 
 add_subdirectory(lib/SPIRV)
-add_subdirectory(tools/llvm-spirv)
 if(LLVM_SPIRV_INCLUDE_TESTS)
   add_subdirectory(test)
 endif(LLVM_SPIRV_INCLUDE_TESTS)
